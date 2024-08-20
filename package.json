@@ -1,19 +1,19 @@
 {
-  "name": "@r2don/react-naver-map",
-  "version": "0.0.16",
+  "name": "@brady/react-naver-map-custom",
+  "version": "1.0.0",
   "author": {
-    "name": "r2don",
-    "email": "leejj2002@naver.com"
+    "name": "brady",
+    "email": "brady@hirediversity.club"
   },
   "main": "dist/index.umd.js",
   "types": "types/index.d.ts",
   "module": "dist/index.es.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/r2don/react-naver-map"
+    "url": "https://github.com/yooeunyeoul/react-naver-map"
   },
   "bugs": {
-    "url": "https://github.com/r2don/react-naver-map/issues"
+    "url": "https://github.com/yooeunyeoul/react-naver-map/issues"
   },
   "license": "MIT",
   "keywords": [
