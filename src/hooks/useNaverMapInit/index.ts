@@ -8,6 +8,13 @@ import {
   insertNaverMapScriptIntoHead,
 } from "./utils";
 
+export enum Language {
+  EN = "en",
+  KO = "ko",
+  JA = "ja",
+  ZH = "zh",
+}
+
 /**
  * Load naver map script with provided client id.
  *
@@ -19,6 +26,7 @@ import {
 export const useNaverMapInit: UseNaverMapInit = ({
   ncpClientId,
   submodules,
+  language = Language.EN,  // language 파라미터 추가
   onLoad,
   onError,
 }) => {
@@ -42,6 +50,7 @@ export const useNaverMapInit: UseNaverMapInit = ({
         const script = createNaverMapScriptByClientId({
           ncpClientId,
           submodules,
+          language, // language 파라미터 추가
         });
         insertNaverMapScriptIntoHead(script);
 

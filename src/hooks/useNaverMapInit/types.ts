@@ -1,6 +1,9 @@
+import type { Language } from ".";
+
 export interface InitParams {
   ncpClientId: string;
   submodules?: Submodule[]
+  language?: Language;
   onLoad?: VoidFunction;
   onError?: VoidFunction;
 }
