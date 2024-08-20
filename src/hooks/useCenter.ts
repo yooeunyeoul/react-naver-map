@@ -10,6 +10,7 @@ import type { LatLng } from "../interfaces/LatLng";
  * setCenter takes center coords and sets it as map center
  *
  * panTo takes center coords and pan to it
+ * test for
  */
 export const useCenter = () => {
   const map = useMapContext();
