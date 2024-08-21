@@ -71,7 +71,7 @@ export const useNaverMapInit: UseNaverMapInit = ({
     };
 
     initNaverMapScript();
-  }, [ncpClientId]);
+  }, [ncpClientId,language,submodules]);
 
   useIsomorphicLayoutEffect(() => {
     if (onLoad && isFunction(onLoad) && isLoaded) {
